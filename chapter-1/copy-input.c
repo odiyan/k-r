@@ -1,3 +1,8 @@
+/*
+There is a flaw in the following code. 
+The second call to getchar() is not compared with EOF
+*/
+
 #include <stdio.h>
 
 int main(int argc, char **argv) {
